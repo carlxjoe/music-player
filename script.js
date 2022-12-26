@@ -10,7 +10,7 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 // Song titles
-const songs = ['dream','melody','peace'];
+const songs = ['dream','melody','peace', "yt5s_com_coldplay_viva_la_vida_sped_up__nightcore_128_kbps", "yt5s_com_SZA_Kill_Bill_Speed_Up_Tiktok_Version_Lyrics_Terjemahan", "yt5s.com - Alan Walker - Alone (Speed Up Fast) (128 kbps)", "IShowSpeed_World_Cup_sped_up__-ocidjBnbyE_140"];
 
 // Keep track of song
 let songIndex = 1;
