@@ -10,8 +10,7 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 // Song titles
-const songs = ['dream','melody','peace', "yt5s_com_coldplay_viva_la_vida_sped_up__nightcore_128_kbps", "yt5s_com_SZA_Kill_Bill_Speed_Up_Tiktok_Version_Lyrics_Terjemahan", "IShowSpeed_World_Cup_sped_up__-ocidjBnbyE_140"];
-
+const songs = ["Worldcup"];
 // Keep track of song
 let songIndex = 1;
 
@@ -22,7 +21,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   audio.src = `music/${song}.mp3`;
-  cover.src = `images/peace.jpg`;
+  cover.src = `images/${song}.jpg`;
 }
 
 // Play song
